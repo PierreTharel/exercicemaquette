@@ -1,0 +1,111 @@
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+  }
+
+nav a, a {
+    text-decoration: none;
+}
+
+.aside{
+    margin-left : 450px;
+    margin-top : -150px;
+    margin-bottom : 100px;
+}
+
+p, .arial{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.material-symbols-outlined{
+    padding: 5px;
+}
+
+.fresh{
+    color : green;
+}
+
+.fresh, .titre {
+    font-family:'Times New Roman', Times, serif;
+}
+
+article{
+    position: relative;
+    top: 250px;
+}
+
+.greenbutton{
+    background-color: green;
+}
+
+.blackbutton{
+    background-color : black;
+    color : white;
+}
+
+.radiusbutton{
+    color : white;
+    border-radius: 10%;
+    padding : 10px;
+}
+
+.menu{
+    font-family : arial;
+    color : black;
+}
+
+.about, .feature, .service, .testimonials, .teams, footer{
+    text-align: center;
+}
+
+.form{
+    margin-top:-300px;
+    margin-bottom : 300px;
+    margin-left: 600px;
+}
+
+.blackbutton:hover{
+    background-color: green;
+}
+
+.column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+  }
+
+  .feature{
+    display : flex; 
+    justify-content : center;
+  }
+  
+  .magazine{
+    width:100px;
+  }
+
+  .person{
+    border-radius:50%;
+    height:100px;
+    width:100px;
+  }
+
+  .testimonials{
+    width : 500px;
+    margin : 0 auto
+  }
+
+.row {
+    display : flex; 
+    justify-content : center;
+  }
+
+.networkicons{
+    width: 50px;
+}
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
